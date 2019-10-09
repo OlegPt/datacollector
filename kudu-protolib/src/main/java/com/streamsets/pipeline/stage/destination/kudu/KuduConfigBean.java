@@ -120,7 +120,7 @@ public class KuduConfigBean {
   @ConfigDef(
       required = false,
       type = ConfigDef.Type.NUMBER,
-      defaultValue = "",
+      defaultValue = "2",
       label = "Maximum Number of Worker Threads",
       description = "Set the maximum number of worker threads. If not provided or set to 0, " +
           "the default (2 * the number of available processors) is used.",
