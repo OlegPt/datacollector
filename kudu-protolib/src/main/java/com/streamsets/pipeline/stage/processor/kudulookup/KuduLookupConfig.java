@@ -123,7 +123,7 @@ public class KuduLookupConfig {
   @ConfigDef(
       required = false,
       type = ConfigDef.Type.NUMBER,
-      defaultValue = "",
+      defaultValue = "2",
       label = "Maximum Number of Worker Threads",
       description = "Set the maximum number of threads to perform lookup processing. If not provided or set to 0, " +
           "the default number (2 * the number of available processors) is used.",
